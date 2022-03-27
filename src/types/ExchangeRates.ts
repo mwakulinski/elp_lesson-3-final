@@ -7,7 +7,6 @@ export interface ExchangeRates {
 
 export interface Rate {
   no: string;
-  effectiveDate: Date;
-  bid: number;
-  ask: number;
+  effectiveDate: string;
+  mid: number;
 }
